@@ -1,0 +1,309 @@
+#header {
+    height: 650px;
+    background-image: url(https://golohtml.uxper.co/images/bg-hero.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding: 50px;
+}
+
+#header .header-nav {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+} 
+
+#header .header-nav .header-nav-home img {
+    max-width: 96px;
+}
+
+#header .nav-list {
+    list-style-type: none;
+    display: flex;
+}
+
+#header .nav-list .list-item {
+    text-decoration: none;
+    color: #000;
+    margin: 0 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#header .nav-list .list-item:hover {
+    color: #23d3d3;
+    transition: color 0.3s;
+}
+
+#header .nav-btn {
+    font-size: 16px;
+    background-color: rgb(35, 211, 211);
+    padding: 0 25px;
+    max-height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+#header .nav-btn:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.header-content-description {
+    max-width: 564px;
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.header-content-description i {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+#header .header-content {
+    padding: 15px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.header-content-btn {
+    background-color: #000;
+    font-size: 15px;
+    width: 200px;
+    height: 60px;
+    color: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 90px;
+}
+
+.header-content-btn:hover {
+    cursor: pointer;
+    background-color: #23d3d3;
+    color: #000;
+    transition: all 0.4s;
+}
+
+#demo {
+    min-height: 900px;
+    padding-bottom: 60px;
+    background-color: #f9f9f9;
+}
+
+ .demo-header {
+    text-align: center;
+    width: 550px;
+    margin: 60px auto;
+}
+
+ .demo-header-title {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+ .demo-header-description {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#demo .demo-content img {
+    max-width: 360px;
+    max-height: 500px;
+   
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.row:last-child {
+    margin-top: 35px;
+}
+
+.col {
+    margin: 15px;
+    border: 1px  rgba(0, 0, 0, 0.5);
+}
+
+.col img {
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.col:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+.col .link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    margin-top: 15px;
+}
+
+.col .link:hover {
+    color: blueviolet;
+    transition: all 0.2s;
+}
+
+#theme {
+    padding: 0 70px 70px;
+    
+}
+
+.theme-list-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-item {
+    width: 270px;
+    height: 250px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.1);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-item img {
+    margin-top: 20px;
+    height: 36px;
+}
+
+.card-item .card-title {
+    font-size: 16px;
+    letter-spacing: 1.1px
+}
+
+.card-item .card-description {
+    font-size: 16px;
+    margin: 0;
+    max-width: 210px;
+    min-height: 110px;
+    line-height: 1.4;
+    color: #666;
+}
+
+#technology {
+    background-color: #1ed5d5;
+    padding: 60px 30px 20px;
+    color: #fff;
+}
+
+.technology-header {
+    text-align: center;
+    font-size: 36px;
+}
+
+.technology-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+
+.technology-item {
+    margin: 0 25px;
+    margin-top: 15px;
+}
+
+.technology-item img {
+    min-width: 61px;
+}
+
+.img-container {
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 32px;
+    min-width: 150px;
+    min-height: 150px;
+    box-sizing: border-box;
+}
+
+.item-title {
+    text-align: center;
+    margin-top: 8px;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#feedback {
+    
+}
+
+.feedback-list {
+    display: flex;
+    justify-content: center;
+}
+
+.feedback-item {
+    width: 370px;
+    height: 370px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 18px;
+    padding: 30px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.feedback-item-title {
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.feedback-description {
+    font-size: 16px;
+    min-height: 210px;
+}
+
+.feedback-footer {
+   display: flex;
+}
+
+.feedback-footer img {
+    max-width: 46px;
+    display: inline-block;
+}
+
+.feedback-footer-content {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.content-title {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.content-description {
+    margin: 0;
+    font-size: 14px;
+}

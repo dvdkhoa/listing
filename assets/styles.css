@@ -171,12 +171,14 @@
 .cards-row {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card-item {
-    width: 270px;
+    min-width: 270px;
     height: 250px;
-    margin: 10px 5px;
+    padding: 15px;
+    margin: 15px;
     box-sizing: border-box;
     text-align: center;
     background-color: #fff;
